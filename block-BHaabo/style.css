@@ -1,0 +1,163 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* custum css */
+body{
+    font-size: 16px;
+    line-height:1.5;
+}
+.container{
+    max-width:1300px;
+    margin:0 auto;
+    padding: 0 32px;
+}
+.header{
+    padding: 20px 0;
+    background-color: rgb(6, 6, 17);
+}
+.header-parent{
+    display: flex;
+    justify-content: space-between;
+}
+.brand img{
+    width:180px;
+}
+span{
+    color:white;
+    font-size: 25px;
+}
+nav a{
+    margin: 0 20px;
+    vertical-align: middle;
+}
+/* section */
+.parent{
+    display: flex;
+}
+.option{
+    position: relative;
+width: 28%;
+margin: 0 auto;
+margin: 2%;
+background-color:skyblue;
+border-radius:20px;
+}
+.option a{
+    margin:40px 30px;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(37, 35, 35);
+    padding:40px 10px;
+    vertical-align: middle;
+}
+.option img{
+    padding-right:10px;
+}
+    .log-out{
+       
+   position: absolute;
+   bottom: 40px;
+   left:35px;
+   width:80%;
+   padding: 20px 0;
+   border-radius: 18px;
+   border-style: none;
+   
+   
+
+        
+    } 
+.article{
+    width:64%;
+    margin:2%;
+   background-color: rgb(178, 210, 223);
+   border: 30px solid  rgb(178, 210, 223);
+   border-radius: 20px;
+
+}
+
+.article img{
+    width:100%;
+}
+.article a{
+    text-decoration: none;
+    background-color: rgb(51, 139, 51);
+    color: white;
+    font-size: 25px;
+    padding: 8px 30px;
+    display: inline-block;
+    border-radius: 18px;
+    margin-top: 10px;
+}
+.article h1{
+    font-size: 40px;
+    font-family:sans-serif;
+}
+.article p{
+    font-size: 21px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+
+/* footer */
+.footer{
+    background-color: rgb(19, 19, 32);
+   padding:30px 0;
+}
+.footer-parent{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.copy-right{
+    font-size:30px;
+}
+.icon a{
+    margin-left:10px;
+    color: white;
+    font-size: 30px;
+}
+
